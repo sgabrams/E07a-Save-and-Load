@@ -23,6 +23,9 @@ text = "0"
 align = 1
 valign = 1
 script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Buttons" type="Node2D" parent="."]
 
@@ -49,11 +52,12 @@ valign = 1
 
 [node name="AddButton" type="TextureButton" parent="Buttons"]
 margin_left = 502.287
-margin_top = 192.625
+margin_top = 194.039
 margin_right = 632.287
-margin_bottom = 291.625
+margin_bottom = 293.039
 __meta__ = {
-"_edit_group_": true
+"_edit_group_": true,
+"_edit_use_anchors_": false
 }
 
 [node name="Label" type="Label" parent="Buttons/AddButton"]
@@ -71,7 +75,8 @@ margin_top = 370.0
 margin_right = 436.0
 margin_bottom = 483.0
 __meta__ = {
-"_edit_group_": true
+"_edit_group_": true,
+"_edit_use_anchors_": false
 }
 
 [node name="Label" type="Label" parent="Buttons/Save"]
